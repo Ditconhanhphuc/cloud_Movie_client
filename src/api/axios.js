@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const BASE_URL = import.meta.env.DEV 
   ? "http://localhost:5000/api/v1"
-  : "https://sb2tm7f7psdyqjzud2k2noy3jq0cutow.lambda-url.ap-southeast-2.on.aws/api/v1";
+  : "https://ehl0kas0u7.execute-api.ap-southeast-2.amazonaws.com";
 
 const axiosInstance = axios.create({
   baseURL: BASE_URL,
